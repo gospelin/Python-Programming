@@ -9,3 +9,4 @@ annual_profit_percent = 0.23
 profit = total_sales * annual_profit_percent
 
 print(f"The annual profit to be made for a total sale of {total_sales}, is {profit}")
+
