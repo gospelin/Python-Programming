@@ -1,0 +1,11 @@
+# 2. Sales Prediction
+# A company has determined that its annual profit is typically 23 percent of total sales. Write
+# a program that asks the user to enter the projected amount of total sales, and then displays
+# the profit that will be made from that amount.
+# Hint: Use the value 0.23 to represent 23 percent.
+
+total_sales = float(input("Enter the projected amount of total sales: "))
+annual_profit_percent = 0.23
+profit = total_sales * annual_profit_percent
+
+print(f"The annual profit to be made for a total sale of {total_sales}, is {profit}")
